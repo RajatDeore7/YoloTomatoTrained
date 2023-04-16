@@ -1,6 +1,6 @@
 # Youtube Link 
 
-![Krushi Karmi - eYIC-#217_Implementation_Sprint_Techincal_Demonstration  RXmJ54QYwvc - 1453x817 - 0m01s](https://user-images.githubusercontent.com/73653940/232318929-088736c2-7f49-4a6f-a580-5a6afbc05267.png)
+
 [![IMAGE ALT TEXT HERE](https://user-images.githubusercontent.com/73653940/232318929-088736c2-7f49-4a6f-a580-5a6afbc05267.png)](https://www.youtube.com/watch?v=RXmJ54QYwvc)
 
 
