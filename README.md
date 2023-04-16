@@ -15,3 +15,7 @@ video and outputs the results as a video with bounding boxes around the detected
 
 Overall, this script demonstrates how to use YOLOv5 to train a custom object detection model on a specific dataset 
 and perform object detection on video files using the trained model.
+
+
+# Project Link
+http://34.131.211.246/farm-video-upload/
