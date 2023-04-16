@@ -26,4 +26,6 @@ and perform object detection on video files using the trained model.
 
 
 # Project Link
+[ http://34.131.211.246/farm-video-upload/]( http://34.131.211.246/farm-video-upload/) 
+
 
