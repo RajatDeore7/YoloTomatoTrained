@@ -40,6 +40,12 @@ def divide_list(lst):
     
     return sublists
 
+
+# create a / for index.html
+def index(request):
+    return render(request, "index.html")
+
+
 @login_required
 def results(request, request_id):
     farm_video_obj = FarmVideo.objects.get(id=request_id)

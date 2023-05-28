@@ -26,7 +26,15 @@
       <td>{{video.status}}</td>
       <td>{{video.created}}</td>
       <td>
-      <a href="{% url "core:results" video.id  %}" class="btn btn-primary btn-sm active" role="button" aria-pressed="true">View Result</a>
+  {% if video.status == "processing"  %}     
+  <a href="#"    class="btn btn-sucess btn-sm active" role="button" aria-pressed="true">Please Wait for Result</a>
+
+  {% else %}
+  <a href="{% url "core:results" video.id  %}"    class="btn btn-primary btn-sm active" role="button" aria-pressed="true">View Result</a>
+  
+
+{% endif %}
+     
       </td>
     </tr>
     {% endfor %}

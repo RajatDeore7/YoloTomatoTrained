@@ -34,7 +34,11 @@
         <div class="container">
           <div class="row justify-content-center">
             <div class="col-xl-5 col-md-8">
+              
               <form class="bg-white rounded shadow-5-strong p-5" method="POST" action="{% url 'account_login' %}">
+              <p>Create Account <a href="{% url 'account_signup' %}">Register</a>.</p>
+
+                <h3>Login </h3>
       {% csrf_token %}
       {{ form|crispy }}
       {% if redirect_field_value %}

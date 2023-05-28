@@ -107,11 +107,26 @@
   <hr>
   {% for des in model_disease_dict %}
   <div class="card" >
-    <div class="card-body">
-      <h5 class="card-title">{{des.name}}</h5>
-      <p class="card-text">
+
+
+  
+    <div class="card-body ">
+
+    <div class="d-flex align-items-start bg-light mb-3" >
+  <div class="col"><h1 class="card-title mt-5 text-center">{{des.name}}</h1></div>
+  <div class="col">    <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+    <img src="{{des.image.url}}" class="img-fluid" />
+    <a href="#!">
+      <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
+    </a>
+  </div></div>
+</div>
+      
+      <div class="card-text">
+
+      
         {{des.description|linebreaks}}
-      </ol>
+      </div>
     </div>
   </div>
   {% endfor %}
