@@ -1,6 +1,10 @@
-{% extends "base.html" %} {% load i18n %} {% load account socialaccount %} {%
-load crispy_forms_tags %} {% load static %} {% block title %}{% trans "Sign In"
-%}{% endblock title %} {% block content_main %}
+{% extends "base.html" %}
+{% load i18n %}
+{% load account socialaccount %} 
+{% load crispy_forms_tags %} 
+{% load static %} 
+{% block title %}{% trans "Sign In"%}{% endblock title %}
+{% block content_main %}
 <header>
   <style>
     #intro {
@@ -52,7 +56,7 @@ load crispy_forms_tags %} {% load static %} {% block title %}{% trans "Sign In"
                 >{% trans "Forgot Password?" %}</a
               >
               <button class="btn btn-primary" type="submit">
-                {% trans "Sign In" %}
+                {% trans "Sign Up" %}
               </button>
             </form>
           </div>
